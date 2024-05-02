@@ -1,0 +1,3 @@
+- Filter the Kafka streams events KStream<String,Domain> into active or inActive
+- Process only active domains
+- 

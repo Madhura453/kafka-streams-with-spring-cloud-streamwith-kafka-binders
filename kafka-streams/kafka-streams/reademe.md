@@ -1,0 +1,1 @@
+https://refactorfirst.com/spring-cloud-kafka-streams-aggregate-join-windowing

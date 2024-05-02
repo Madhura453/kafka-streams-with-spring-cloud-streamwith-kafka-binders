@@ -1,0 +1,8 @@
+spring:
+  cloud:
+    function:
+      definition: producerBinding
+    stream:
+      bindings:
+        producerBinding-out-0:
+          destination: processor-topic

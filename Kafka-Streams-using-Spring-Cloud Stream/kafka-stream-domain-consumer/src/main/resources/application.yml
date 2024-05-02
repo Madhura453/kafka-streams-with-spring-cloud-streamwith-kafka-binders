@@ -1,0 +1,15 @@
+spring:
+  cloud:
+    function:
+      definition: consumerBinding
+    stream:
+      bindings:
+        consumerBinding-in-0:
+          destination: consumer-topic
+    kafka:
+      binder:
+        brokers: localhost:9092
+
+
+Server:
+  port: 8097

@@ -1,0 +1,5 @@
+- There are three major types in Kafka Streams – KStream, KTable and GlobalKTable.
+Spring Cloud Stream supports all of them. We can easily convert the stream to the table and vice-versa.
+To clarify, all Kafka topics are stored as a stream.
+The difference is: when we want to consume that topic, we can either consume it as a table or a stream.
+KTable takes a stream of records from a topic and reduces it down to unique entries using a key of each message.

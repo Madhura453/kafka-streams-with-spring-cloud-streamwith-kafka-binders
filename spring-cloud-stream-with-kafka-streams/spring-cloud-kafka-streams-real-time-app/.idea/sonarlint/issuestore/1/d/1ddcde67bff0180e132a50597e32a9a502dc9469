@@ -1,0 +1,15 @@
+
+Q
+java:S3740`"/Provide the parametrized type for this generic.(‚ğ…Œùÿÿÿÿ8òÜ—ÿÛ1
+
+java:S1488C"sImmediately return this expression instead of assigning it to the temporary variable "transactionTotalAllProducts".(à·‡·8òÜ—ÿÛ1
+o
+java:S6204R"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ÁÀ–×8üÜ—ÿÛ1
+q
+java:S1854`"ORemove this useless assignment to local variable "transactionTotalMultiKeyMap".(‚ğ…Œùÿÿÿÿ8üÜ—ÿÛ1
+b
+java:S1481`"@Remove this unused "transactionTotalMultiKeyMap" local variable.(‚ğ…Œùÿÿÿÿ8ıÜ—ÿÛ1
+f
+java:S1128"IRemove this unused import 'org.springframework.util.LinkedMultiValueMap'.(µÂî‹8şÜ—ÿÛ1
+P
+java:S1128".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ8şÜ—ÿÛ1

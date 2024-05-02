@@ -1,0 +1,18 @@
+spring:
+  cloud:
+    function:
+      definition: processorBinding
+    stream:
+      bindings:
+        processorBinding-in-0:
+          destination: processor-topic
+        processorBinding-out-0:
+          destination: consumer-topic
+    kafka:
+      binder:
+        brokers: localhost:9092
+
+
+
+server:
+  port: 9000

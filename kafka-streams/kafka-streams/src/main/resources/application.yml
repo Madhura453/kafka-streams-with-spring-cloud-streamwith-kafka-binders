@@ -1,0 +1,47 @@
+spring:
+  cloud:
+    function:
+      definition: producer;enhancer;aggregate;join
+    stream:
+      bindings:
+        producer-out-0:
+          destination: producer-topic
+        enhancer-in-0:
+          destination: producer-topic
+        enhancer-out-0:
+          destination: enhance-topic
+        aggregate-in-0:
+          destination: producer-topic
+        aggregate-out-0:
+          destination: aggregate-topic
+        join-in-0:
+          destination: enhance-topic
+        join-in-1:
+          destination: aggregate-topic
+        join-out-0:
+          destination: join-output-topic
+      binder:
+        configuration:
+          commit.interval.ms: 2000 # to allow the stream to send the message as soon as possible and not wait
+      kafka:
+        streams:
+          bindings:
+            enhancer-in-0:
+              consumer:
+                keyserde: org.apache.kafka.common.serialization.Serdes$StringSerde
+                valueSerde: com.springcloudstreams.kafkastreams.converters.EventSerDes
+            aggregate-in-0:
+              consumer:
+                keyserde: org.apache.kafka.common.serialization.Serdes$StringSerde
+                valueSerde: com.springcloudstreams.kafkastreams.converters.EventSerDes
+            join-out-0:
+               producer:
+                 keyserde: org.apache.kafka.common.serialization.Serdes$StringSerde
+                 valueSerde: com.springcloudstreams.kafkastreams.converters.JoinedValueSerDes
+        bindings:
+          producer-out-0:
+            producer:
+              configuration:
+                key.serializer: org.apache.kafka.common.serialization.StringSerializer
+        binder:
+          brokers: localhost:9092

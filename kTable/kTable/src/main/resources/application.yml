@@ -1,0 +1,23 @@
+spring:
+  cloud:
+    function:
+      definition: producer;process
+    stream:
+      bindings:
+        producer-out-0:
+          destination: words-producer-topic
+        process-in-0:
+          destination: words-producer-topic
+      kafka:
+        streams:
+          bindings:
+            process-in-0:
+              consumer:
+                materializedAs: wordsStore
+        bindings:
+            producer-out-0:
+              producer:
+                configuration:
+                  key.serializer: org.apache.kafka.common.serialization.StringSerializer
+        binder:
+            brokers: localhost:9092

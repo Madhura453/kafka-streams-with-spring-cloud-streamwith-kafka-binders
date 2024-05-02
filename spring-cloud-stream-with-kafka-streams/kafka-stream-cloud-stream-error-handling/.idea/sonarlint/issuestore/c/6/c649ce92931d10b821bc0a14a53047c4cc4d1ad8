@@ -1,0 +1,19 @@
+
+Q
+java:S3740_"/Provide the parametrized type for this generic.(…‹ÃĞøÿÿÿÿ8¶£™øß1
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ºæ÷Ğúÿÿÿÿ8¹£™øß1
+‡
+java:S4165Q"eRemove this useless assignment; "context" already holds the assigned value along all execution paths.(ÕÜ–ıÿÿÿÿ8Ü£™øß1
+Y
+java:S1854?"7Remove this useless assignment to local variable "msg".(«¥Í¿ÿÿÿÿÿ8è£™øß1
+J
+java:S1481?"(Remove this unused "msg" local variable.(«¥Í¿ÿÿÿÿÿ8é£™øß1
+S
+java:S1874L"1Remove this use of "transform"; it is deprecated.(œü·ˆøÿÿÿÿ8ì£™øß1
+£
+java:S1186k"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(—µ±şıÿÿÿÿ8í£™øß1
+U	java:S106Z"9Replace this use of System.out or System.err by a logger.(­÷³ß8ò£™øß1
+]
+java:S1612x"@Replace this lambda with method reference 'String::toUpperCase'.(³¯8ú£™øß1
+Q
+java:S1656Q"/Remove or correct this useless self-assignment.(ÕÜ–ıÿÿÿÿ8ü£™øß1
