@@ -1,0 +1,58 @@
+spring:
+  kafka:
+    bootstrap-servers: 'localhost:9092'
+  cloud:
+    function:
+      definition: orderProcessor;upperCaseProcessor;orderBranchingProcessor;upperCaseBranchingProcessor
+    stream:
+     bindings:
+       orderProcessor-in-0:
+          destination: raw-order-topic
+       raw-order-topic-out-0:
+         destination: sane-order-topic
+       upperCaseProcessor-in-0:
+         destination: src-textMsg-topic
+       upperCaseProcessor-out-0:
+         destination: out-textMsg-topic
+       orderBranchingProcessor-in-0:
+         destination: raw-order-topic
+       orderBranchingProcessor-out-0:
+         destination: order-topic
+       orderBranchingProcessor-out-1:
+         destination: errored-order
+       orderProcessWithSideEffect-in-0:
+         destination: raw-order-topic
+       orderProcessWithSideEffect-out-0:
+         destination: order-topic
+       upperCaseBranchingProcessor-in-0:
+         destination: src-textMsg-topic
+       upperCaseBranchingProcessor-out-0:
+         destination: out-textMsg-topic-0
+       upperCaseBranchingProcessor-out-1:
+         destination: out-textMsg-topic-1
+     kafka:
+       streams:
+         binder:
+           brokers: localhost:9092
+           functions:
+             orderProcessor:
+                applicationId: 'OrderProcessorStream'
+             upperCaseProcessor:
+                applicationId: 'lowerToUpperCaseStreamProcessor'
+
+
+
+test-input-topic: src-textMsg-topic
+test-output-topic: out-textMsg-topic
+
+#spring:
+#  kafka:
+#    #    producer:
+#    #      value-serializer: JsonSerializer.class
+#    bootstrap-servers: 'localhost:9092'
+
+
+
+# This is for customErrorHandler, errorHandler,
+
+

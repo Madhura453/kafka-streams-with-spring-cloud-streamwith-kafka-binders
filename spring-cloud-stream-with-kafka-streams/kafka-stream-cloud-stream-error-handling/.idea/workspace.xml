@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d7f8b82c-0836-4b40-9fba-bbf4a9a6679f" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2d1fMNks4IVR8jhGCTtTGdqBE6W" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/AWS-Springboot-developing-2023/Aws.S3",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\spring-cloud-stream-with-kafka-streams\kafka-stream-cloud-stream-error-handling\kafka-stream-cloud-stream-error-handling\src\test\java" />
+      <recent name="D:\spring-cloud-stream-with-kafka-streams\kafka-stream-cloud-stream-error-handling\kafka-stream-cloud-stream-error-handling\src\test\java\com\kafkastreamcloudstreamerrorhandling" />
+      <recent name="D:\spring-cloud-stream-with-kafka-streams\kafka-stream-cloud-stream-error-handling\kafka-stream-cloud-stream-error-handling\src\main\java\com\kafkastreamcloudstreamerrorhandling\exception" />
+      <recent name="D:\spring-cloud-stream-with-kafka-streams\kafka-stream-cloud-stream-error-handling\kafka-stream-cloud-stream-error-handling\src\main\java\com\kafkastreamcloudstreamerrorhandling\model" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.CustomKafkaProducer">
+    <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
+      <option name="appName" />
+      <option name="appServicePlanName" />
+      <option name="appServicePlanResourceGroup" />
+      <option name="appSettingsKey" value="f5d659f7-7c58-4722-8fcd-e5bbfc0a8c20" />
+      <option name="artifact" />
+      <option name="debugOptions" />
+      <option name="deployment" />
+      <option name="deploymentStagingDirectoryPath" />
+      <option name="funcPath" />
+      <option name="functionHostArguments" />
+      <option name="hostJsonPath" />
+      <option name="insightsName" />
+      <option name="instrumentationKey" />
+      <option name="javaVersion" />
+      <option name="localSettingsJsonPath" />
+      <option name="moduleName" />
+      <option name="os" />
+      <option name="pricingTier" />
+      <option name="providerMap">
+        <map />
+      </option>
+      <option name="region" />
+      <option name="resourceGroup" />
+      <option name="stagingFolder" />
+      <option name="subscription" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomKafkaProducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kafkastreamcloudstreamerrorhandling.producer.CustomKafkaProducer" />
+      <module name="kafka-stream-cloud-stream-error-handling" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kafkastreamcloudstreamerrorhandling.producer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KafkaStreamCloudStreamErrorHandlingApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kafkastreamcloudstreamerrorhandling.KafkaStreamCloudStreamErrorHandlingApplication" />
+      <module name="kafka-stream-cloud-stream-error-handling" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kafkastreamcloudstreamerrorhandling.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderProducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kafkastreamcloudstreamerrorhandling.producer.OrderProducer" />
+      <module name="kafka-stream-cloud-stream-error-handling" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kafkastreamcloudstreamerrorhandling.producer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderProducerTest.produceData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kafka-stream-cloud-stream-error-handling" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kafkastreamcloudstreamerrorhandling.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kafkastreamcloudstreamerrorhandling" />
+      <option name="MAIN_CLASS_NAME" value="com.kafkastreamcloudstreamerrorhandling.OrderProducerTest" />
+      <option name="METHOD_NAME" value="produceData" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderProducerTest.produceMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kafka-stream-cloud-stream-error-handling" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kafkastreamcloudstreamerrorhandling.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kafkastreamcloudstreamerrorhandling" />
+      <option name="MAIN_CLASS_NAME" value="com.kafkastreamcloudstreamerrorhandling.OrderProducerTest" />
+      <option name="METHOD_NAME" value="produceMessage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CustomKafkaProducer" />
+        <item itemvalue="Application.OrderProducer" />
+        <item itemvalue="Application.KafkaStreamCloudStreamErrorHandlingApplication" />
+        <item itemvalue="JUnit.OrderProducerTest.produceMessage" />
+        <item itemvalue="JUnit.OrderProducerTest.produceData" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d7f8b82c-0836-4b40-9fba-bbf4a9a6679f" name="Changes" comment="" />
+      <created>1709180455889</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1709180455889</updated>
+    </task>
+    <servers />
+  </component>
+</project>

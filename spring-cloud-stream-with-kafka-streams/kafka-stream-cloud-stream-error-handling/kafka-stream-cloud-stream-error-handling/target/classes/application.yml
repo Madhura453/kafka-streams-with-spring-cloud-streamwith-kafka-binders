@@ -1,0 +1,39 @@
+spring:
+  kafka:
+    bootstrap-servers: 'localhost:9092'
+  cloud:
+    function:
+      definition: orderProcessor;upperCaseProcessor
+    stream:
+     bindings:
+       orderProcessor-in-0:
+          destination: raw-order-topic
+       raw-order-topic-out-0:
+         destination: sane-order-topic
+       upperCaseProcessor-in-0:
+         destination: src-textMsg-topic
+       upperCaseProcessor-out-0:
+         destination: out-textMsg-topic
+     kafka:
+       streams:
+         binder:
+           brokers: localhost:9092
+           functions:
+             orderProcessor:
+                applicationId: 'OrderProcessorStream'
+             upperCaseProcessor:
+                applicationId: 'lowerToUpperCaseStreamProcessor'
+
+
+
+test-input-topic: src-textMsg-topic
+test-output-topic: out-textMsg-topic
+
+#spring:
+#  kafka:
+#    #    producer:
+#    #      value-serializer: JsonSerializer.class
+#    bootstrap-servers: 'localhost:9092'
+
+
+

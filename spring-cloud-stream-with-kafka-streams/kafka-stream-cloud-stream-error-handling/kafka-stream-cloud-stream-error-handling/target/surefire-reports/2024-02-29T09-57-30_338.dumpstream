@@ -1,0 +1,5 @@
+# Created at 2024-02-29T09:57:30.671
+Boot Manifest-JAR contains absolute paths in classpath 'D:\spring-cloud-stream-with-kafka-streams\kafka-stream-cloud-stream-error-handling\kafka-stream-cloud-stream-error-handling\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+
